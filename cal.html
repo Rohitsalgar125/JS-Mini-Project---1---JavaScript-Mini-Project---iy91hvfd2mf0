@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+<div class="calc">
+
+    <input type="text" id="input" placeholder="0" value="">
+    <div class="btns">
+        <button id="clr" value="clear" onclick="reset()">Reset</button>
+        <button id="dot" value="."onclick="display('.')">.</button>
+        <button id="block0" value="0"onclick="display('0')">0</button>
+        <button id="block1" value="1"onclick="display('1')">1</button>
+        <button id="block2" vuajialue="2"onclick="display('2')">2</button>
+        <button id="block3" value="3"onclick="display('3')">3</button>
+        <button id="block4" value="4" onclick="display('4')">4</button>
+        <button id="block5" value="5" onclick="display('5')">5</button>
+        <button id="block6" value="6"onclick="display('6')">6</button>
+        <button id="block7" value="7"onclick="display('7')">7</button>
+        <button id="block8" value="8"onclick="display('8')">8</button>
+        <button id="block9" value="9"onclick="display('9')">9</button>
+        <button id="plus" value="+"onclick="display('+')">+</button>
+        <button id="minus" value="-" onclick="display('-')">-</button>
+        <button id="multiply" value="*" onclick="display('*')">*</button>
+        <button id="divide" value="/" onclick="display('/')" >/</button>
+        <button id="ans" value="=" onclick="calculate()">=</button>
+    </div>
+</div>
+<script src="cal.js"></script>
+</body>
+</html>
